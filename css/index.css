@@ -1,0 +1,52 @@
+* {
+    font-family: Helvetica;
+}
+
+body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b4949;
+}
+
+#alertaInicio {
+    background-color: #2c2929;
+    padding: 40px;
+    width: 70%;
+    max-width: 800px;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 5px #000000;
+}
+
+#tituloAviso {
+    color: #ffffff;
+}
+
+#textoAviso {
+    color: #ffffff;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#linkJsonPlaceholder {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#botaoAviso {
+    text-decoration: none;
+    padding: 15px 12px 15px 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#botaoAviso:hover {
+    opacity: 1;
+}
